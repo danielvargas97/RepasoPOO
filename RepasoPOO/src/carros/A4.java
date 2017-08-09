@@ -4,23 +4,25 @@ import transmision.Transmision;
 
 /**
  *
- * @author VARGAS
+ * @author PC
  */
-public class F40 extends Carro {
+public class A4 extends Carro {
 
-    public F40(Transmision transmision) {
+    public A4(Transmision transmision) {
         super(transmision);
         transmision.mostrarTipo();
     }
 
     @Override
     public void acelerar() {
-        System.out.println("Acelerando el F40...");
+        
+        System.out.println("Acelerando el A4 ...");
+        
+        
     }
 
     @Override
     public void frenar() {
-        System.out.println("Frenando el F40...");
+        System.out.println("Frenando el A4...");
     }
-
 }

@@ -1,18 +1,18 @@
 package fabricas;
 
+import carros.A4;
 import carros.Carro;
-import carros.F40;
 import transmision.Transmision;
 
 /**
  *
- * @author VARGAS
+ * @author PC
  */
-public class FabricaFerrari extends Fabrica {
+public class FabricaAudi extends Fabrica {
 
     @Override
     public Carro crearCarro(Transmision t) {
-        return new F40(t);
+        return new A4(t);
     }
 
 }

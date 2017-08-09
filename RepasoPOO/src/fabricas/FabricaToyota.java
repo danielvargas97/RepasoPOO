@@ -15,5 +15,4 @@ public class FabricaToyota extends Fabrica {
         return new Supra(t);
     }
 
-    
 }

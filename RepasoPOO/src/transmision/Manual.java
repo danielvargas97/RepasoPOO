@@ -10,5 +10,5 @@ public class Manual implements Transmision {
     public void mostrarTipo() {
         System.out.println("Transmisión Manual");
     }
-    
+
 }

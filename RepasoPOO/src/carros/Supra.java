@@ -8,18 +8,19 @@ import transmision.Transmision;
  */
 public class Supra extends Carro {
 
-    public Supra(Transmision t){
+    public Supra(Transmision t) {
         super(t);
+        t.mostrarTipo();
     }
-    
+
     @Override
     public void acelerar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Acelerando el Supra...");
     }
 
     @Override
     public void frenar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Frenando el Supra...");
     }
-    
+
 }
